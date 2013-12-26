@@ -416,11 +416,13 @@ if s:style == "light"
         hi Cursor                       guibg=#87afd7
         hi CursorIM                     guibg=#87afd7
         hi Error        guifg=#d70000   guibg=#ffd7d7
+        hi SpecialKey   guifg=#d70000   guibg=#ffd7d7
         hi Todo         guifg=#af8700   guibg=#ffffaf
     else
         hi Cursor                       guibg=#5f87af
         hi CursorIM                     guibg=#5f87af
         hi Error        guifg=#af0000   guibg=#d7afaf
+        hi SpecialKey   guifg=#af0000   guibg=#d7afaf
         hi Todo         guifg=#875f00   guibg=#ffffaf
     endif
 else
@@ -434,6 +436,7 @@ else
         hi Cursor                       guibg=#5f87af
         hi CursorIM                     guibg=#5f87af
         hi Error        guifg=#d75f5f   guibg=#870000
+        hi SpecialKey   guifg=#d75f5f   guibg=#870000
         hi IncSearch                    guibg=#00afaf
         hi MatchParen                   guibg=#87af5f
         hi Search                       guibg=#d78700
@@ -442,6 +445,7 @@ else
         hi Cursor                       guibg=#afd7ff
         hi CursorIM                     guibg=#afd7ff
         hi Error        guifg=#ffafaf   guibg=#af0000
+        hi SpecialKey   guifg=#ffafaf   guibg=#af0000
         hi IncSearch                    guibg=#87ffff
         hi MatchParen                   guibg=#d7ff87
         hi Search                       guibg=#ffaf5f
@@ -450,6 +454,7 @@ else
         hi Cursor                       guibg=#87afd7
         hi CursorIM                     guibg=#87afd7
         hi Error        guifg=#ff8787   guibg=#870000
+        hi SpecialKey   guifg=#ff8787   guibg=#870000
         hi IncSearch                    guibg=#5fd7d7
         hi MatchParen                   guibg=#afd75f
         hi Search                       guibg=#d78700
